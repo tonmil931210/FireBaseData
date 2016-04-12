@@ -10,11 +10,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.asus.firebaseapp.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameServer"
+        android:text="Sorkerf"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="490dp"
         android:id="@+id/listView"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>
