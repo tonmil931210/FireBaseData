@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FIreBaseApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="fi">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+        <item>Item5</item>
+        <item>Item6</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
